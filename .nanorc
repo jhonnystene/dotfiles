@@ -1,0 +1,17 @@
+unbind ^C main
+unbind ^V main
+unbind ^X main
+unbind ^Z main
+unbind ^Y main
+
+bind ^Q exit main
+bind ^C copy main
+bind ^V paste main
+bind ^X cut main
+bind ^Z undo main
+bind ^Y redo main
+
+set nohelp
+set autoindent
+set linenumbers
+set zap
